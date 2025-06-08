@@ -48,7 +48,7 @@
                             <span>Information</span>
                             <h2>Contact Us</h2>
                             <p>As you might expect of a company that began as a high-end interiors contractor, we pay
-                                strict attention.</p>
+                                strict attendasdasdaion.</p>
                         </div>
                         <ul>
                             <li>
