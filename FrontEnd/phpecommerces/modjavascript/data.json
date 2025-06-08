@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "T-shirt",
+    "price": 12,
+    "image": "https://img.freepik.com/free-psd/stylish-blue-plaid-shirt-men-isolated-transparent-background_191095-23041.jpg?semt=ais_hybrid",
+    "description": "Nice Tshirt"
+  },
+  {
+    "id": 2,
+    "name": "T-shirt",
+    "price": 312,
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/041/714/543/small_2x/ai-generated-black-blank-t-shirt-front-mockup-on-a-transparent-background-png.png",
+    "description": "Nice Tshirt"
+  },
+  {
+    "id": 3,
+    "name": "T-shirt",
+    "price": 129,
+    "image": "https://purepng.com/public/uploads/large/purepng.com-t-shirtclothingt-shirtfashion-dress-shirt-cloth-tshirt-631522326894filwv.png",
+    "description": "Nice Tshirt"
+  },
+  {
+    "id": 4,
+    "name": "T-shirt",
+    "price": 20,
+    "image": "https://www.pngall.com/wp-content/uploads/5/Long-Sleeve-Shirt-PNG-Clipart.png",
+    "description": "Nice Tshirt"
+  },
+  {
+    "id": 5,
+    "name": "T-shirt",
+    "price": 112,
+    "image": "https://img.freepik.com/free-psd/mens-long-sleeve-orange-navy-plaid-flannel-shirt-casual-button-down-top-apparel-clothing-fashion-menswear-fall-winter_632498-27772.jpg",
+    "description": "Nice Tshirt"
+  }
+]
