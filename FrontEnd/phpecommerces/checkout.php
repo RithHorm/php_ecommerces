@@ -18,7 +18,7 @@ foreach ($_SESSION['cart'] as $item) {
 
 <head>
     <?php include "./include/components/head.php" ?>
-    <script src="https://www.paypal.com/sdk/js?client-id=ATbJVZILIHG19EekXhkCc7CHGXowTNoiYDXRBtPpXMSA-ezvM67_Rk0IMlhUiw-0q6EhrGK6mlir-Yyo&currency=USD"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=ASosM5ucjc9XrRJKiog7dRSwKEM0c7VscMbOxU4JBiw9A5_Fvr3ZBpE7zdR2iJKn91VVzEVeVs3t50Uq&currency=USD"></script>
 
 </head>
 
