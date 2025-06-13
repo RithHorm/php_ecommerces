@@ -7,7 +7,8 @@ $sliders = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <section class="hero">
       <div class="hero__slider owl-carousel">
       <?php foreach ($sliders as $slider): ?>
-        <div class="hero__items set-bg" data-setbg="http://localhost:8080/php-rest-api-latest/backend/sliderUploads/<?= htmlspecialchars($slider['image']) ?>">
+        <!-- <div class="hero__items set-bg" data-setbg="http://localhost:8080/php-rest-api-latest/backend/sliderUploads/<?= htmlspecialchars($slider['image']) ?>"> -->
+        <div class="hero__items set-bg" data-setbg="/BackEnd/sliderUploads/<?= htmlspecialchars($slider['image']) ?>">
           <div class="container">
             <div class="row">
               <div class="col-xl-5 col-lg-7 col-md-8">

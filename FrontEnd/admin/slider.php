@@ -135,7 +135,8 @@ $sliders = $stmt->fetchAll(PDO::FETCH_ASSOC);
                           <div class="flex px-2 py-1">
                             <div>
                               <!-- <img src="http://localhost:8080/php-rest-api-latest/backend/sliderUploads<?= htmlspecialchars($slider['image']) ?> class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-in-out h-12 w-12 rounded-xl" alt="product image" /> -->
-                              <img src="http://localhost:8080/php-rest-api-latest/backend/sliderUploads/<?= htmlspecialchars($slider['image']) ?>"  class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-in-out rounded-xl" style="width: 120px; height: 80px; object-fit: cover;" alt="product image" />
+                              <!-- <img src="http://localhost:8080/php-rest-api-latest/backend/sliderUploads/<?= htmlspecialchars($slider['image']) ?>"  class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-in-out rounded-xl" style="width: 120px; height: 80px; object-fit: cover;" alt="product image" /> -->
+                              <img src="/BackEnd/sliderUploads/<?= htmlspecialchars($slider['image']) ?>"  class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-in-out rounded-xl" style="width: 120px; height: 80px; object-fit: cover;" alt="product image" />
 
                             </div>
                            
