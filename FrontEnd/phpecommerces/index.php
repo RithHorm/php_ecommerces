@@ -7,13 +7,9 @@ require_once __DIR__ . '/include/components/function.php'; // Include the functi
 // Call the function to verify JWT and get user data
 $user = verifyJWTFromSession();
 
-// If the user is not authenticated or not an admin, redirect to sign-in page
-if ($user === null || $user->role !== 'user') {
-    header("Location: sign-in.php");
-    exit();
-}
+
 ?>
-<?php include "../phpecommerces/include/components/session.php"?>
+
 
 <!DOCTYPE html>
 <html lang="zxx">

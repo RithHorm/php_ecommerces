@@ -14,8 +14,8 @@ use Firebase\JWT\Key;
 $user = verifyJWTFromSession(); // Call function to verify JWT token
 
 // Redirect if no valid token or if user is not an admin
-if ($user === null || $user->role !== 'user') {
-    header("Location: sign-in.php");
-    exit();
-}
+// if ($user === null || $user->role !== 'user') {
+//     header("Location: sign-in.php");
+//     exit();
+// }
 ?>
